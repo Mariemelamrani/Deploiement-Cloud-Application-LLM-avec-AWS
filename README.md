@@ -10,7 +10,7 @@ Ce projet démontre le déploiement d'une application IA conversationnelle intel
 - Modèles LLM : Ollama (llama3.2, mxbai-embed-large)
 - Infrastructure : AWS EC2, Docker, Ngrok
 - Sécurité : IAM, Security Groups, SSH Keys
-![Architecture du Projet](./Files/Architecture1.png)
+![Architecture du Projet](./Files/Architecture1.PNG)
 
 ***ARCHITECTURE HYBRIDE***
 L'application suit une architecture hybride innovante :
