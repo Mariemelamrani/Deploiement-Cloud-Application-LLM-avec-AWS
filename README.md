@@ -1,9 +1,9 @@
-DÉPLOIEMENT D'UNE APPLICATION IA CONVERSATIONNELLE AVEC RAG SUR AWS CLOUD
+**DÉPLOIEMENT D'UNE APPLICATION IA CONVERSATIONNELLE AVEC RAG SUR AWS CLOUD**
 
-DESCRIPTION DU PROJET
+***DESCRIPTION DU PROJET***
 Ce projet démontre le déploiement d'une application IA conversationnelle intelligente combinant la puissance des LLMs avec la scalabilité du cloud AWS. Le système utilise l'architecture RAG (Retrieval-Augmented Generation) pour fournir des réponses contextuelles basées sur une base de connaissances de critiques de restaurants.
 
-ARCHITECTURE TECHNIQUE
+***ARCHITECTURE TECHNIQUE***
 - Frontend : Streamlit
 - Backend : Python, LangChain  
 - Base de données vectorielle : ChromaDB
@@ -11,7 +11,8 @@ ARCHITECTURE TECHNIQUE
 - Infrastructure : AWS EC2, Docker, Ngrok
 - Sécurité : IAM, Security Groups, SSH Keys
 ![Architecture du Projet](./Files/Architecture1.png)
-ARCHITECTURE HYBRIDE
+
+***ARCHITECTURE HYBRIDE***
 L'application suit une architecture hybride innovante :
 - Frontend Cloud : Application Streamlit containerisée sur AWS EC2
 - Backend IA Local : Modèles Ollama exécutés localement
@@ -19,11 +20,10 @@ L'application suit une architecture hybride innovante :
 - Stack technique : Streamlit, LangChain, ChromaDB, Docker
 ![Architecture du Projet](./Files/Architecture2.png)
 
-PROCESSUS DE DÉPLOIEMENT
+***PROCESSUS DE DÉPLOIEMENT***
 
 Configuration AWS
 - Création du compte AWS avec localisation Maroc
-- Compte : widad.bakadiri@etu.uae.ac.ma
 - Type de compte : Personnel
 - Région principale : eu-west-3 (Paris)
 
@@ -58,7 +58,7 @@ Tunnel Sécurisé Ngrok
 - URL publique persistante pour accès distant
 - Monitoring en temps réel via interface web
 
-FONCTIONNALITÉS VALIDÉES
+***FONCTIONNALITÉS VALIDÉES***
 
 Interface Utilisateur
 - Interface Streamlit intuitive avec champ de saisie
@@ -78,7 +78,7 @@ Performance et Stabilité
 - Connexion stable entre cloud et ressources locales
 - Optimisation des coûts dans le cadre Free Tier
 
-DÉFIS ET SOLUTIONS
+***DÉFIS ET SOLUTIONS***
 
 Défi Mémoire
 Problème : Instance EC2 t3.micro (1 Go RAM) insuffisante pour les modèles LLM
@@ -92,7 +92,7 @@ Défi Docker
 Problème : Complexité de la configuration réseau des conteneurs
 Solution : Optimisation des paramètres réseau et gestion dynamique des variables d'environnement
 
-RÉSULTATS ET IMPACTS
+***RÉSULTATS ET IMPACTS***
 
 Performance Technique
 - Application pleinement opérationnelle sur infrastructure Free Tier
@@ -112,9 +112,3 @@ Compétences Développées
 - Configuration et optimisation de modèles LLM
 - Réseaux et tunneling sécurisé
 - Architecture d'applications IA distribuées
-
-CONCLUSION
-Ce projet a démontré la faisabilité de déployer une application IA complexe avec un budget minimal. L'architecture hybride développée combine intelligemment les avantages du cloud AWS avec les ressources locales, résolvant le défi des limitations matérielles tout en maintenant des performances optimales.
-
-Le système RAG opérationnel valide l'approche technique et ouvre la voie au déploiement accessible d'applications IA avancées. Cette solution constitue une base solide pour des projets plus ambitieux et démontre la maturité des architectures cloud-local modernes.
-
