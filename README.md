@@ -10,14 +10,14 @@ ARCHITECTURE TECHNIQUE
 - Modèles LLM : Ollama (llama3.2, mxbai-embed-large)
 - Infrastructure : AWS EC2, Docker, Ngrok
 - Sécurité : IAM, Security Groups, SSH Keys
-
+![Architecture du Projet](./Files/Architecture1.png)
 ARCHITECTURE HYBRIDE
 L'application suit une architecture hybride innovante :
 - Frontend Cloud : Application Streamlit containerisée sur AWS EC2
 - Backend IA Local : Modèles Ollama exécutés localement
 - Connectivité : Tunnel sécurisé Ngrok pour la connectivité cloud-local
 - Stack technique : Streamlit, LangChain, ChromaDB, Docker
-
+![Architecture du Projet](./Files/Architecture2.png)
 
 PROCESSUS DE DÉPLOIEMENT
 
